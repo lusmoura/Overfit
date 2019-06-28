@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GraphActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/overfit"
+                android:contentDescription="@string/logo" />
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/settings"
+                android:contentDescription="@string/back_to_first_screen"
+                app:srcCompat="@drawable/settings" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/meusTreinos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/meus_treinos"
+            android:text="@string/meus_treinos"
+            android:textColor="@color/colorPrimary"
+
+            android:textSize="40sp"
+            android:visibility="visible"
+            app:fontFamily="@font/source_sans_pro_black_italic" />
+
+        <ImageView
+            android:id="@+id/aerobicoImage"
+            android:layout_width="289dp"
+            android:layout_height="144dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/runningasset"
+            android:contentDescription="@string/aerobico_image"
+            android:scaleType="center"
+            tools:ignore="VectorDrawableCompat" />
+
+        <Button
+            android:id="@+id/aerobicoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/aerobico"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            app:cornerRadius="16dp"
+            app:backgroundTint="@color/Yellow"
+            app:fontFamily="@font/source_sans_pro_black_italic"
+            tools:ignore="MissingPrefix" />
+
+        <ImageView
+            android:id="@+id/muscularImage"
+            android:layout_width="289dp"
+            android:layout_height="148dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/imgcardio1"
+            android:contentDescription="@string/muscular" />
+
+        <Button
+            android:id="@+id/muscularButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/muscular"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            app:backgroundTint="@color/Yellow"
+            app:cornerRadius="16dp"
+            app:fontFamily="@font/source_sans_pro_black_italic"
+            tools:ignore="MissingPrefix" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:background="@color/white"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:buttonGravity="bottom">
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="40dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/treinoButton"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bar"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:contentDescription="@string/meus_treinos" />
+
+                <TextView
+                    android:id="@+id/meusTreinos2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:contentDescription="@string/meus_treinos"
+                    android:text="@string/treino"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:fontFamily="@font/source_sans_pro_black_italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="40dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/graficoButton"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/trending"
+                    android:backgroundTint="@android:color/darker_gray"
+                    android:contentDescription="@string/graficos" />
+
+                <TextView
+                    android:id="@+id/meusTreinos3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/meus_treinos"
+                    android:text="@string/progresso"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:fontFamily="@font/source_sans_pro_black_italic" />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

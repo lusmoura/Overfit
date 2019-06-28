@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Overfit</string>
+    <string name="logo">logo</string>
+    <string name="back_to_first_screen">BACK[</string>
+    <string name="activity_image_1">imag1</string>
+    <string name="xp1">XP: </string>
+    <string name="intensity1">Intensidade</string>
+    <string name="activity_description">desc</string>
+    <string name="quanto_voce_fez">Digite quanto você fez</string>
+    <string name="confirm_button">confirm</string>
+    <string name="activityName1"> </string>
+    <string name="start_button_1">start</string>
+    <string name="activity_image_2">img2</string>
+    <string name="activityName2"> </string>
+    <string name="xp2">XP: </string>
+    <string name="intensity2">Intensidade</string>
+    <string name="start_button_2">b2</string>
+    <string name="activity_image_3">img3</string>
+    <string name="activityName3"> </string>
+    <string name="xp3">XP: </string>
+    <string name="intensity3">Intensidade</string>
+    <string name="start_button_3">start3</string>
+    <string name="activity_image_4">img4</string>
+    <string name="activityName4"> </string>
+    <string name="xp4">XP: </string>
+    <string name="intensity4">Intensidade</string>
+    <string name="start_button_4">start45</string>
+    <string name="escolha_seu_treino">ESCOLHA SEU \nTREINO</string>
+    <string name="meus_treinos">Meus Treinos</string>
+    <string name="muscular">MUSCULAR</string>
+    <string name="aerobico_image">aerobico Image</string>
+    <string name="aerobico">AERÓBICO</string>
+    <string name="todo">todo</string>
+    <string name="cadastre_seu_perfil">Cadastre seu perfil</string>
+    <string name="edite_seu_perfil">Edite seu perfil</string>
+    <string name="nome">Nome</string>
+    <string name="idade">Idade</string>
+    <string name="altura">Altura em metros</string>
+    <string name="peso">Peso em quilos</string>
+    <string name="objetivo">Objetivo</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="intensidade">Intensidade</string>
+    <string name="normal">Normal</string>
+    <string name="intenso">Intenso</string>
+    <string name="graficos">Graficos</string>
+    <string name="progresso">Progresso</string>
+    <string name="treino">  Treino  </string>
+    <string name="dias_seguidos_de_treino">Dias seguidos de treino</string>
+    <string name="_08">08</string>
+    <string name="imc">IMC: </string>
+    <string name="xp_maximo">Xp máximo: </string>
+
+    <string-array name="intensities" >
+        <item>Leve</item>
+        <item>Regular</item>
+        <item>Intenso</item>
+        <item>Insano</item>
+        <item></item>
+    </string-array>
+
+</resources>

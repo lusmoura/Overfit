@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "96952203448",
+    "firebase_url": "https://overfit-47fc5.firebaseio.com",
+    "project_id": "overfit-47fc5",
+    "storage_bucket": "overfit-47fc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96952203448:android:a94cf03b0b2cbc46",
+        "android_client_info": {
+          "package_name": "com.project.overfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96952203448-g7svvu7gc01ff9f0mog0lgqqn0kil9pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv3dXV8mTz79k409WeETOUO2_WPw1vrJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96952203448-g7svvu7gc01ff9f0mog0lgqqn0kil9pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
